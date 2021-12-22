@@ -11,7 +11,7 @@ def main():
 
 
     app_mode = st.sidebar.selectbox("Choose the app mode",
-        ["Instructions", "Dashboard", "Prediction"])
+        ["Instructions", "Show the source code", "Dashboard", "Prediction"])
     if app_mode == "Instructions":
         st.sidebar.success('To continue select "Run the app".')
     elif app_mode == "Show the source code":
